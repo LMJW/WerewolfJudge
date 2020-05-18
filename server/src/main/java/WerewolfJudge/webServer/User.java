@@ -12,7 +12,7 @@ class User {
   private String name;
   private String session;
 
-  User(){}
+  User() {}
 
   User(String name, String session) {
     this.name = name;

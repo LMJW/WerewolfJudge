@@ -3,7 +3,6 @@ package WerewolfJudge.webServer;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-
 import lombok.Data;
 
 @Entity
@@ -13,9 +12,9 @@ public class Room {
   private String name;
   private String addr;
 
-  Room(){}
+  Room() {}
 
-  Room(String name, String addr){
+  Room(String name, String addr) {
     this.name = name;
     this.addr = addr;
   }
