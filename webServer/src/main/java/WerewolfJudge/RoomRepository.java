@@ -1,4 +1,4 @@
-package WerewolfJudge.webServer;
+package WerewolfJudge;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

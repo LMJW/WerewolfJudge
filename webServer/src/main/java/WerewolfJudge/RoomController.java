@@ -1,4 +1,4 @@
-package WerewolfJudge.webServer;
+package WerewolfJudge;
 
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;

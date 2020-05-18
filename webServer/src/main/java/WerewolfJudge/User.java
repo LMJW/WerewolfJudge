@@ -1,4 +1,4 @@
-package WerewolfJudge.webServer;
+package WerewolfJudge;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
