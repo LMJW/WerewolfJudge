@@ -19,6 +19,8 @@ plugins {
     // spring boot for web server
     id 'org.springframework.boot' version '2.3.0.RELEASE'
     id 'io.spring.dependency-management' version '1.0.9.RELEASE'
+
+    
 }
 
 repositories {
@@ -42,6 +44,9 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+
+    // sqlite JDBC driver
+    compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.31.1'
 }
 
 application {
