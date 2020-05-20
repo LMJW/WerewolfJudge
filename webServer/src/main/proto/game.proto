@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "WerewolfJudge.grpc";
+
+service PlayerAction {
+  rpc action(ActionRequest) returns (ActionResponse) {}
+}
+
+message ActionRequest { string msg = 1; }
+
+message ActionResponse { string result = 1; }
