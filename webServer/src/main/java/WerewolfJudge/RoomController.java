@@ -1,5 +1,6 @@
 package WerewolfJudge;
 
+import WerewolfJudge.game.Game;
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -21,6 +22,8 @@ public class RoomController {
 
   @PostMapping("/rooms")
   Room newRoom(@RequestBody Room room) {
+    var game = new Game();
+    game.start();
     return repo.save(room);
   }
 }

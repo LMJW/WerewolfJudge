@@ -1,7 +1,7 @@
 package WerewolfJudge.game.character;
 
 public class Werewolf extends Character {
-  public Werewolf(){
+  public Werewolf() {
     type = CharacterType.WEREWOLF;
   }
 }

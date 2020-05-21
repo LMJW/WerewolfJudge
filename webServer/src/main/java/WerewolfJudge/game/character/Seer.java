@@ -1,7 +1,7 @@
 package WerewolfJudge.game.character;
 
 public class Seer extends Character {
-  public Seer(){
+  public Seer() {
     type = CharacterType.SEER;
   }
 }

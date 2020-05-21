@@ -1,8 +1,6 @@
 package WerewolfJudge.game;
 
-/**
- * Singleton pattern
- */
+/** Singleton pattern */
 public class GameManager {
   // manage many game instances
   // passing the incoming action to different engine

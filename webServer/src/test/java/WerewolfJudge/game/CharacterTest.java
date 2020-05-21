@@ -2,10 +2,9 @@ package WerewolfJudge.game;
 
 import static org.junit.Assert.assertEquals;
 
-import org.junit.Test;
-
 import WerewolfJudge.game.character.Villager;
 import WerewolfJudge.game.character.Werewolf;
+import org.junit.Test;
 
 public class CharacterTest {
   @Test

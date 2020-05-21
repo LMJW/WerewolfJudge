@@ -3,7 +3,7 @@ package WerewolfJudge.game.character;
 import java.util.ArrayList;
 
 public abstract class Character {
-  CharacterType type ;
+  CharacterType type;
   ArrayList<Trait> traits;
 
   void vote(int playerID) {}
@@ -14,9 +14,7 @@ public abstract class Character {
     return this.getClass().getSimpleName();
   }
 
-  /**
-   * @return the type
-   */
+  /** @return the type */
   public CharacterType getType() {
     return type;
   }
