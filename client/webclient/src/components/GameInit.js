@@ -32,7 +32,6 @@ export default function GameInit() {
         </Grid>
       </Grid>
       <CharacterSelectionDialog open={openDialog} onClose={handleOnClose} />
-
     </React.Fragment>
   );
 }

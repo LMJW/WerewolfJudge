@@ -36,8 +36,6 @@ export default (props) => {
     setTotalChars(total);
   }
 
-
-
   return (
     <Dialog onClose={handleClose} open={open}>
       <DialogTitle>
